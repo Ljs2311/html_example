@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!-- Other Text -->
+        <p>This is a paragraph.</p>
+        <marquee>This is a marquee.</marquee>
+
+        <!-- Lists -->
+        <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+            <li>Unordered List Item 3</li>
+        </ul>
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>
+        </ol>
+
+        <!-- Links -->
+        <a href="https://www.example.com">This is a link to example.com</a>
+
+        <!-- Images -->
+        <br>
+        <p>This is an image:</p>
+        <img src="https://loganrules.net/favicon.ico" alt="Placeholder Image">
+
+        <!-- Tables -->
+        <br>
+        <p>This is a table:</p>
+        <table border="1">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+
+            </tr>
+        </table>
+
+        <!-- Forms -->
+        <br>
+        <p>This is a form:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Other Elements -->
+        <br>
+        <p>This is a blockquote:</p>
+        <blockquote>
+            "This is a blockquote. It is used to indicate a quote from another source."
+        </blockquote>
+
+        <br>
+        <p>This is a code block:</p>
+        <pre>
+            <code>
+                // This is a code block
+                function helloWorld() {
+                    console.log("Hello, world!");
+                }
+            </code>
+        </pre>
+
+        <!-- Horizontal Rule -->
+        <hr>
+        <p>This is a horizontal rule above.</p>
+
+        <!-- Line Break -->
+        <p>This is a line break below.<br>Here is the next line.</p>
+
+        <!-- Emphasis -->
+        <p>This is <em>emphasized</em> text.</p>
+        <p>This is <strong>strong</strong> text.</p>
+        <p>This is <u>underlined</u> text.</p>
+        <p>This is <s>strikethrough</s> text.</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>This is <small>small</small> text.</p>
+        <p>This is <big>big</big> text.</p>
+        <p>This is <sub>subscript</sub> text.</p>
+        <p>This is <sup>superscript</sup> text.</p>
+        <p>This is <abbr title="abbreviation">abbr</abbr> text.</p>
+        <p>This is <cite>citation</cite> text.</p>
+        <p>This is <dfn>definition</dfn> text.</p>
+        <p>This is <kbd>keyboard input</kbd> text.</p>
+        <p>This is <samp>sample output</samp> text.</p>
+        <p>This is <var>variable</var> text.</p>
+        <p>This is <time datetime="2024-06-01">June 1, 2024</time> text.</p>
+        <p>This is <wbr>word break opportunity</p>
+        <p>This is <b>bold</b> text.</p>
+        <p>This is <i>italic</i> text.</p>
+        <p>This is <del>deleted</del> text.</p>
+        <p>This is <ins>inserted</ins> text.</p>
+
+        <!-- Semantic Elements -->
+        <br>
+        <p>This is a semantic element:</p>
+        <article>
+            <h2>Article Title</h2>
+            <p>This is an article. It is a self-contained piece of content that
+                can be distributed independently.</p>
+        </article>
+        <section>
+            <h2>Section Title</h2>
+            <p>This is a section. It is a thematic grouping of content,
+                typically with a heading.</p>
+        </section>
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#section">Section</a></li>
+                <li><a href="#nav">Navigation</a></li>
+            </ul>
+        </nav>
+
+        <!-- Multimedia Elements -->
+        <br>
+        <p>This is a multimedia element:</p>
+        <audio controls>
+            <source
+                src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/L1h3eitX6c8?si=2DhdE4cvVnEdeMXZ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; 
+            autoplay; 
+            clipboard-write; 
+            encrypted-media; 
+            gyroscope; 
+            picture-in-picture; 
+            web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+
+        <!-- Canvas Element -->
+        <p>This is a canvas element:</p>
+        <canvas id="myCanvas" width="200" height="100"
+            style="border:1px solid #000000;">
+            Your browser does not support the canvas element.
+        </canvas>
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(20, 20, 150, 50);
+        </script>
+
+        <!-- SVG Element -->
+        <br>
+        <p>This is an SVG element:</p>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green"
+                stroke-width="4" fill="yellow" />
+        </svg>
+
+        <!-- Other -->
+        <br>
+        <p>This is a details element:</p>
+        <details>
+            <summary>Click to see details</summary>
+            <p>These are the details. They are hidden by default and can be
+                revealed by clicking the summary.</p>
+        </details>
+        <br>
+        <p>This is a dialog element:</p>
+        <dialog open>
+            <p>This is a dialog. It is a modal window that can be used to
+                display information or prompt the user for input.</p>
+            <button onclick="this.parentElement.close()">Close</button>
+        </dialog>
+        <br>
+        <p>This is a meter element:</p>
+        <meter value="0.6">60%</meter>
+        <br>
+        <p>This is a progress element:</p>
+        <progress value="70" max="100">70%</progress>
+        <br>
+        <p>This is a ruby element:</p>
+        <ruby>
+            漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
+            字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+        </ruby>
+        <br>
+    </body>
+</html>
